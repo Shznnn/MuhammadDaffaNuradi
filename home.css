@@ -971,7 +971,7 @@ body{
 	visibility: hidden;
 }
 .parallax{
-	background-image: url(../logo/wall.jpg);
+	background-image: url(logo/wall.jpg);
 	min-height: 1550px;
 	background-attachment: fixed;
 	background-position: center;
@@ -986,7 +986,7 @@ body{
 	height: 920px;
 	width: 800px;
 	display: block;
-	background-image: url(../logo/gulungan.png);
+	background-image: url(logo/gulungan.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1018,7 +1018,7 @@ body{
 	width: 100%;
 	height: 900px;
 	display: flex;
-	background-image:url(../logo/bg-1.jpg);
+	background-image:url(logo/bg-1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1079,7 +1079,7 @@ body{
 	font-family: 'Estonia', cursive;
 }
 .coffee{
-	background-image: url(../logo/bijikopi.jpg);
+	background-image: url(logo/bijikopi.jpg);
 	min-height: 1400px;
 	background-attachment: fixed;
 	background-position: center;
@@ -1789,7 +1789,7 @@ body{
 	visibility: hidden;
 }
 .parallax{
-	background-image: url(../logo/wall.jpg);
+	background-image: url(logo/wall.jpg);
 	min-height: 1250px;
 	background-attachment: fixed;
 	background-position: center;
@@ -1804,7 +1804,7 @@ body{
 	height: 920px;
 	width: 800px;
 	display: block;
-	background-image: url(../logo/gulungan.png);
+	background-image: url(logo/gulungan.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1836,7 +1836,7 @@ body{
 	width: 100%;
 	height: 1500px;
 	display: flex;
-	background-image:url(../logo/bg-1.jpg);
+	background-image:url(logo/bg-1.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1896,7 +1896,7 @@ body{
 	font-family:  var(--poppins);
 }
 .coffee{
-	background-image: url(../logo/bijikopi.jpg);
+	background-image: url(logo/bijikopi.jpg);
 	min-height: 800px;
 	background-attachment: fixed;
 	background-position: center;
