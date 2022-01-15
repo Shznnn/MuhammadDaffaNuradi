@@ -1,0 +1,491 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --coklat: #C49863;
+    --itemblur:rgb(0,0,0,0.5);
+
+}
+.bg{
+    background-image: url(blur.jpg);
+	min-height: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+    display: flex;
+    color: white;
+}
+.delivery{
+    width: 49%;
+    height: 950px;
+    background-color: rgb(0, 0, 0,0.5);
+    margin: 0px 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.delivery h1{
+    font-size: 3em;
+    color: var(--coklat);
+}
+.delivery ul li{
+    list-style: none;
+}
+.delivery input[type = "text"],input[type = "email"]{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.0);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #a57e4f;
+    margin: 15px;
+    transition: 1s;
+    font-size: 1.2em;
+    color: white;
+}
+.delivery input[type = "text"]:focus,input[type = "email"]:focus{
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.0);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #cf7f1d;
+    margin: 15px;
+    font-size: 1.4em;
+}
+.delivery button{
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    transition: 1s;
+}
+.delivery button:hover{
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    cursor: pointer;
+    background-color: var(--coklat);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+}
+.pembayaran{
+    width: 49%;
+    height: 50%;
+    background-color: rgb(0, 0, 0,0.5);
+    position: absolute;
+    text-align: center;
+    margin-left: 50%;
+}
+.pembayaran h1{
+    margin: 50px;
+    font-size: 2em;
+    margin-bottom: 100px;
+    color: var(--coklat);
+}
+.pembayaran input[type = "text"]{
+    height: 30px;
+    width: 150px;
+    font-size: 1.5em;
+    outline: none;
+    background-color: rgb(0, 0, 0,0.0);
+    border: none;
+    color: white;
+    margin: 10px;
+}
+.pembayaran button{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(0, 0, 0,0.0);
+    color: var(--coklat);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+.pembayaran p{
+    font-size: 1em;
+    margin: 10px;
+}
+.pembayaran .norek{
+    margin-left: 50px;
+}
+.bukti{
+    width: 49%;
+    height: 44%;
+    background-color: rgb(0, 0, 0,0.5);
+    position: absolute;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateY(116%);
+}
+.bukti p{
+    margin: 50px;
+    font-size: 2em;
+    margin-bottom: 150px;
+    color: var(--coklat);
+}
+.bukti input[type = "button"]{
+    height: 40px;
+    width: 80px;
+    font-size: 1em;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    outline: none;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+.bukti input[type = "button"]:hover{
+    height: 40px;
+    width: 80px;
+    font-size: 1em;
+    background-color: var(--coklat);
+    color: black;
+    outline: none;
+    border: none;
+}
+@media (max-width:1080px){
+    *{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --coklat: #C49863;
+    --itemblur:rgb(0,0,0,0.5);
+
+}
+.bg{
+    background-image: url(blur.jpg);
+	min-height: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+    display: flex;
+    color: white;
+}
+.delivery{
+    width: 48%;
+    height: 950px;
+    background-color: rgb(0, 0, 0,0.5);
+    margin: 0px 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.delivery h1{
+    font-size: 2em;
+    color: var(--coklat);
+}
+.delivery ul li{
+    list-style: none;
+}
+.delivery input[type = "text"],input[type = "email"]{
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.0);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #a57e4f;
+    margin: 15px;
+    transition: 1s;
+    font-size: 1.2em;
+    color: white;
+}
+.delivery input[type = "text"]:focus,input[type = "email"]:focus{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.0);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #cf7f1d;
+    margin: 15px;
+    font-size: 1.4em;
+}
+.delivery button{
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    cursor: pointer;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    transition: 1s;
+}
+.delivery button:hover{
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    cursor: pointer;
+    background-color: var(--coklat);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+}
+.pembayaran{
+    width: 49%;
+    height: 50%;
+    background-color: rgb(0, 0, 0,0.5);
+    position: absolute;
+    text-align: center;
+    margin-left: 50%;
+}
+.pembayaran h1{
+    margin: 50px;
+    font-size: 1.7em;
+    margin-bottom: 100px;
+    color: var(--coklat);
+}
+.pembayaran input[type = "text"]{
+    height: 30px;
+    width: 150px;
+    font-size: 1.5em;
+    outline: none;
+    background-color: rgb(0, 0, 0,0.0);
+    border: none;
+    color: white;
+    margin: 10px;
+}
+.pembayaran button{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(0, 0, 0,0.0);
+    color: var(--coklat);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+.pembayaran p{
+    font-size: 1em;
+    margin: 10px;
+}
+.pembayaran .norek{
+    margin-left: 50px;
+}
+.bukti{
+    width: 49%;
+    height: 44%;
+    background-color: rgb(0, 0, 0,0.5);
+    position: absolute;
+    text-align: center;
+    margin-left: 50%;
+    transform: translateY(116%);
+}
+.bukti p{
+    margin: 50px;
+    font-size: 1.7em;
+    margin-bottom: 150px;
+    color: var(--coklat);
+}
+.bukti input[type = "button"]{
+    height: 40px;
+    width: 80px;
+    font-size: 1em;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    outline: none;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+.bukti input[type = "button"]:hover{
+    height: 40px;
+    width: 80px;
+    font-size: 1em;
+    background-color: var(--coklat);
+    color: black;
+    outline: none;
+    border: none;
+}
+}
+@media (max-width:720px){
+    *{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --coklat: #C49863;
+    --itemblur:rgb(0,0,0,0.5);
+
+}
+.bg{
+    background-image: url(blur.jpg);
+	min-height: 2000px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+    display: list-item;
+    color: white;
+}
+.delivery{
+    width: 100%;
+    height: 950px;
+    background-color: rgb(0, 0, 0,0.5);
+    margin: 0px 0px;
+    margin-bottom: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.delivery h1{
+    font-size: 3em;
+    color: var(--coklat);
+}
+.delivery ul li{
+    list-style: none;
+}
+.delivery input[type = "text"],input[type = "email"]{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.0);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #a57e4f;
+    margin: 15px;
+    transition: 1s;
+    font-size: 1.2em;
+    color: white;
+}
+.delivery input[type = "text"]:focus,input[type = "email"]:focus{
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(0, 0, 0,0.0);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #cf7f1d;
+    margin: 15px;
+    font-size: 1.4em;
+}
+.delivery button{
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    cursor: pointer;
+    background-color: var(--coklat);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+    transition: 1s;
+}
+.delivery button:hover{
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    cursor: pointer;
+    background-color: var(--coklat);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.2em;
+}
+.pembayaran{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: absolute;
+    text-align: center;
+    margin-left: 0%;
+}
+.pembayaran h1{
+    margin: 50px;
+    font-size: 2em;
+    margin-bottom: 100px;
+    color: var(--coklat);
+}
+.pembayaran input[type = "text"]{
+    height: 30px;
+    width: 150px;
+    font-size: 1.5em;
+    outline: none;
+    background-color: rgb(0, 0, 0,0.0);
+    border: none;
+    color: white;
+    margin: 10px;
+}
+.pembayaran button{
+    height: 30px;
+    width: 50px;
+    background-color: rgb(0, 0, 0,0.0);
+    color: var(--coklat);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+}
+.pembayaran p{
+    font-size: 1em;
+    margin: 10px;
+}
+.pembayaran .norek{
+    margin-left: 50px;
+}
+.bukti{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0, 0, 0,0.5);
+    position: absolute;
+    text-align: center;
+    margin-left: 0%;
+    transform: translateY(510px);
+}
+.bukti p{
+    margin: 50px;
+    font-size: 2em;
+    margin-bottom: 150px;
+    color: var(--coklat);
+}
+.bukti input[type = "button"]{
+    height: 40px;
+    width: 80px;
+    font-size: 1em;
+    background-color: var(--coklat);
+    color: white;
+    outline: none;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+.bukti input[type = "button"]:hover{
+    height: 40px;
+    width: 80px;
+    font-size: 1em;
+    background-color: var(--coklat);
+    color: black;
+    outline: none;
+    border: none;
+}
+}
